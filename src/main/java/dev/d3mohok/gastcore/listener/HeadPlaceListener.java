@@ -13,10 +13,9 @@ public class HeadPlaceListener implements Listener {
         Material placedType = event.getBlockPlaced().getType();
         if (placedType == Material.PLAYER_HEAD || placedType == Material.PLAYER_WALL_HEAD) {
             FileConfiguration config = ConfigManager.getConfig();
-            if (config.getBoolean("head-protection")) {
+            if (config.getBoolean("settings.head-protection")) {
                 event.setCancelled(true);
             }
         }
-
     }
 }
