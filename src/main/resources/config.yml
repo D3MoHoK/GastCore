@@ -1,2 +1,9 @@
 settings:
   head-protection: true
+  hide-default-join-quit: true
+
+priority-access:
+  enabled: true
+  max-players: 180
+  required-permission: "gastcore.fullserver"
+  kick-message: "&cСервер полон! Для входа требуется привилегия &cɢᴀꜱᴛ&c."
