@@ -1,0 +1,5 @@
+name: GastCore
+version: '${version}'
+main: dev.d3mohok.gastcore.Main
+authors: [D3MoHoK]
+api-version: '1.16'
